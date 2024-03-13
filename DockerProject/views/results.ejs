@@ -1,0 +1,40 @@
+<% include partials/header %>
+
+<section>
+    <div class="container">
+        <h1 class="display-3">Liste des films</h1>
+        <div class="row">
+
+            <% data["results"].forEach(function(film) { %>
+
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card text-center">
+                        <div class="card-header">
+                            <h5 class="card-title"><%= film.name %></h5>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text"><strong>Height:</strong> <%= film.height %></p>
+                            <p class="card-text"><strong>Mass:</strong> <%= film.mass %></p>
+                            <p class="card-text"><strong>Hair Color:</strong> <%= film.hair_color %></p>
+                            <p class="card-text"><strong>Skin Color:</strong> <%= film.skin_color %></p>
+                            <p class="card-text"><strong>Eye Color:</strong> <%= film.eye_color %></p>
+                            <p class="card-text"><strong>Birth Year:</strong> <%= film.birth_year %></p>
+                            <p class="card-text"><strong>Gender:</strong> <%= film.gender %></p>
+                            <p class="card-text"><strong>Homeworld:</strong> <a href="<%= film.homeworld %>">Link</a></p>
+                            <p class="card-text"><strong>Films:</strong></p>
+                        </div>
+                        <div class="card-footer">
+                            <p><strong>Created:</strong> <%= film.created %></p>
+                            <p><strong>Edited:</strong> <%= film.edited %></p>
+                            <p><strong>URL:</strong> <a href="<%= film.url %>">Link</a></p>
+                        </div>
+                    </div>
+                </div>
+
+            <% }) %>
+
+        </div>
+    </div>
+</section>
+
+<% include partials/footer %>

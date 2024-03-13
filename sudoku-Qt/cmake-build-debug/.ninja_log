@@ -1,0 +1,10 @@
+# ninja log v5
+7	75	0	CMakeFiles/sudoku_Qt_master_autogen	b28f5176d6f5dfcc
+5	127	0	C:/Users/USER/Downloads/sudoku-Qt-master (1)/sudoku-Qt-master/cmake-build-debug/sudoku_Qt_master_autogen/mocs_compilation.cpp	5c561d39d2291c85
+7	75	0	sudoku_Qt_master_autogen/mocs_compilation.cpp	b28f5176d6f5dfcc
+155	403	7282542650238658	CMakeFiles/sudoku_Qt_master.dir/matrix.cc.obj	db8b871ebc540a95
+166	2212	7282542668407737	CMakeFiles/sudoku_Qt_master.dir/main.cpp.obj	9a88db085bde072c
+172	2261	7282542668880489	CMakeFiles/sudoku_Qt_master.dir/sudoku_Qt_master_autogen/mocs_compilation.cpp.obj	b6b8d12140ab5f7a
+76	2071	7283136588441064	CMakeFiles/sudoku_Qt_master.dir/mainwindow.cpp.obj	8a58088b02b7e8ea
+2072	3426	7283136591382875	sudoku_Qt_master.exe	39cad0384e2dfad6
+24	1072	7288733457377189	build.ninja	3b9743c2704a2ba2

@@ -1,0 +1,4 @@
+C:/Users/USER/Document/C++/sudoku-Qt-master/cmake-build-debug/CMakeFiles/sudoku_Qt_master.dir
+C:/Users/USER/Document/C++/sudoku-Qt-master/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/USER/Document/C++/sudoku-Qt-master/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/USER/Document/C++/sudoku-Qt-master/cmake-build-debug/CMakeFiles/sudoku_Qt_master_autogen.dir
